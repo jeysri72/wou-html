@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Index Page</title>
+    <style>
+         header {
+                text-align: center;    
+            }
+           
+        .contact {
+            color: cyan !important;
+        }
+
+        #mobile {
+            color: blueviolet;
+            /* overrides the color of class (.contact)*/
+        }
+
+        body {
+            
+            background-color: darkgray;
+        }
+
+        img {
+            margin: 20px 0px 0px 0px;
+            /* Top, Right, Bottom, Left */
+            border: 10px solid white;
+            border-radius: 100px;
+        }
+
+        p {
+            /* padding: 10px; */
+
+            margin: 20px;
+            color: darkblue
+        }
+
+   
+        .left-panel {
+            margin: 20px;
+            float: left;
+            clear: left;
+            width: 60%;
+        }
+
+        .right-panel {
+            margin: 20px;
+            padding: 0 20px 0 0;
+            float: right;
+            clear: right;
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Objective Business Card -->
+    <!-- Name, Image, Description, Contact details-->
+    <header>
+        <div id="left">
+            <img src="../res/img/alice.jpg" alt="My Profile Image">
+            <h1>Alice </h1>
+        </div>
+    </header>
+    <div class="rest-page">
+        <section class="left-panel">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit vehicula velit, ut facilisis
+                mauris fermentum facilisis. Sed vitae venenatis nisi, nec eleifend lorem. Duis odio nisi, sodales nec
+                malesuada ac, tincidunt a lorem. Etiam ut pulvinar nisi, quis feugiat massa. Aliquam eu tellus eleifend,
+                iaculis purus non, pulvinar eros. Duis consequat arcu et quam fringilla, quis euismod est imperdiet.
+                Aenean eu aliquet lacus. Donec orci dui, tempor quis sodales eget, sagittis a metus. Morbi laoreet
+                turpis sed ex ultricies porttitor.
+            </p>
+
+         </section>
+        <aside class="right-panel">
+                <h2>My Contacts</h2>
+                <p id="mobile" class="contact">Mobile: 8342 3433</p>
+                <p id="email" class="contact">Email: Jey@email.com</p>
+           
+        </aside>
+    </div>
+</body>
+
+</html>
